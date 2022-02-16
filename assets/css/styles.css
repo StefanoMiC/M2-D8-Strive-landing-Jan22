@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;700&family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --serif: "EB Garamond", serif;
+  --sans-serif: "Montserrat", sans-serif;
+  --bg-dark: #0d0e0e;
+  --strive-primary: #00ff84;
+}
+body {
+  font-family: var(--sans-serif);
+  color: white;
+  background-color: var(--bg-dark);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--serif);
+}
+
+.hero h1 {
+  margin-bottom: 2rem;
+}
+
+.hero .btn {
+  margin-top: 2rem;
+}
+
+.btn-strive-green {
+  background-color: var(--strive-primary);
+}
+
+@media (min-width: 768px) {
+  .hero h1 {
+    font-size: 4rem;
+    line-height: 0.9;
+  }
+  .hero h1 + p {
+    font-size: 22px;
+  }
+
+  .navbar {
+    padding: 3rem 5rem;
+  }
+}
